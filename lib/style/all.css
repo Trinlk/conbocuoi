@@ -1,0 +1,89 @@
+#content{
+    line-height: 20px;
+    align-self: center;
+}
+
+p{
+    color: #D6D6D6;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+a{
+    font-weight: 700;
+    color: #D6D6D6;
+    text-decoration: none;
+}
+a:hover{
+    
+    color:#DC322F;
+    text-decoration:none;
+}
+
+
+
+span{
+    color: #666666;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: #DC322F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#info {
+    padding-left: 300px;
+}
+#dash_blink{
+    font-family:Hardpixel;
+    font-size:24px;
+    font-weight:200;
+    letter-spacing:0.24px;
+    line-height:32px;
+    
+}
+.dd-mm-yyyy{
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#dash_blink::after{
+    content: "_";
+    animation: dash_blink 0.8s infinite;
+}
+
+@keyframes dash_blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#footer_left{
+    font-family: Hardpixel;
+    color:#666666;
+    font-size:15px;
+    line-height:30px;
+    margin:250px 0px 0px 300px;    
+    
+}
+
+ul{
+    color:#666666;
+    font-size:12.8px;
+    line-height:1px;
+    margin: -15px 0px 0px 700px;
+}
+li{
+    color:#666666;
+    display:inline-block;
+    font-family:Hardpixel;
+    font-size:12.8px;
+    line-height:1px;
+    margin:0px 15px 0px 0px;
+   
+}

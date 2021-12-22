@@ -1,0 +1,24 @@
+li{
+    color: #D6D6D6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+#infomation, li{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+h1{
+    color: #fff;
+   
+}
+
+span{
+ 
+    line-height:normal;
+    background: rgba(135,131,120,0.15);
+    color: #EB5757;
+    border-radius: 3px;
+    font-size: 85%;
+    padding : 0.2em 0.4em ;
+}   
